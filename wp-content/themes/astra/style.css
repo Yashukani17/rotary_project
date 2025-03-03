@@ -1,0 +1,478 @@
+/**
+Theme Name: Astra
+Theme URI: https://wpastra.com/
+Author: Brainstorm Force
+Author URI: https://wpastra.com/about/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme
+Description: The Astra WordPress theme is lightning-fast and highly customizable. It has over 1 million downloads and the only theme in the world with 5,700+ five-star reviews! It’s ideal for professional web designers, solopreneurs, small businesses, eCommerce, membership sites and any type of website. It offers special features and templates so it works perfectly with all page builders like Spectra, Elementor, Beaver Builder, etc. Fast performance, clean code, mobile-first design and schema markup are all built-in, making the theme exceptionally SEO-friendly. It’s fully compatible with WooCommerce, SureCart and other eCommerce plugins and comes with lots of store-friendly features and templates. Astra also provides expert support for free users. A dedicated team of fully trained WordPress experts are on hand to help with every aspect of the theme. Try the live demo of Astra: https://zipwp.org/themes/astra/
+Version: 4.8.12
+Requires at least: 5.3
+WC requires at least: 3.0
+WC tested up to: 9.6
+Tested up to: 6.7.1
+Requires PHP: 5.3
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra
+Domain Path: /languages
+Tags: custom-menu, custom-logo, entertainment, one-column, two-columns, left-sidebar, e-commerce, right-sidebar, custom-colors, editor-style, featured-images, full-width-template, microformats, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready, blog
+AMP: true
+
+Astra WordPress Theme, Copyright 2020 WPAstra.
+Astra is distributed under the terms of the GNU GPL.
+
+Astra is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of.
+Nicolas Gallagher and Jonathan Neal https://necolas.github.com/normalize.css/
+
+Astra icon font is based on IcoMoon-Free vector icon by Keyamoon.
+IcoMoon-Free vector icon distributed under terms of CC BY 4.0 or GPL. (https://creativecommons.org/licenses/by/4.0/ or https://www.gnu.org/licenses/gpl.html)
+Source: http://keyamoon.com/
+
+Flexibility is a JavaScript polyfill for Flexbox By Jonathan Neal, 10up. (https://github.com/jonathantneal/flexibility)
+Licensed under MIT ( https://github.com/jonathantneal/flexibility/blob/master/LICENSE.md )
+
+Screenshot image is a collage of actual sites created using the Astra WordPress Theme.
+
+Icons used in the Screenshot image are all licensed under Creative Commons ( CC BY 4.0 ) License ( https://fontawesome.com/license/free )
+https://fontawesome.com/v5.15/icons/store?style=solid
+https://fontawesome.com/v5.15/icons/shopping-cart?style=solid
+https://fontawesome.com/v5.15/icons/pen-square?style=solid
+https://fontawesome.com/v5.15/icons/user-tie?style=solid
+https://fontawesome.com/v5.15/icons/user-tie?style=solid
+
+Illustrations used in the Screenshot images are all licensed under Creative Commons ( CC0 ) License ( https://gumroad.com/l/humaaans )
+https://websitedemos.net/web-design-agency-08/wp-content/uploads/sites/796/2021/05/standing-24.png
+https://websitedemos.net/web-design-agency-08/wp-content/uploads/sites/796/2021/05/sitting-2.png
+
+Hand-drawn illustrations used are created by Brainstorm Force and released under Creative Commons ( CC0 ) License.
+https://websitedemos.net/web-design-agency-08/wp-content/uploads/sites/796/2021/05/girl-with-image-container.png
+https://websitedemos.net/web-design-agency-08/wp-content/uploads/sites/796/2021/05/boy-with-code-container.png
+https://websitedemos.net/web-design-agency-08/wp-content/uploads/sites/796/2021/05/web-browser.png
+
+The same site as screenshot can be imported from here https://websitedemos.net/web-design-agency-08/.
+
+For more information, refer to this document on how to create a page like in the screenshot - https://wpastra.com/docs/replicating-the-screenshot/.
+
+Astra default breadcrumb is based on Breadcrumb Trail by Justin Tadlock. (https://github.com/justintadlock/breadcrumb-trail)
+Breadcrumb Trail is distributed under the terms of the GNU GPL v2 or later.
+
+Astra local fonts feature is based on Webfonts Loader by WordPress Themes Team (WPTT). (https://github.com/WPTT/webfont-loader)
+Licensed under MIT ( https://github.com/WPTT/webfont-loader/blob/master/LICENSE )
+
+/* Note: The CSS files are loaded from assets/css/ folder. */
+
+
+body { background-color: #FFF; margin: 0; padding: 0; font-size: 14px; }
+li { list-style: none; }
+.site-header .main-header-menu .menu-item a:hover,
+.site-header .main-header-menu .menu-item a.active {
+	border-bottom: 3px solid #fff;
+}
+.site-header .main-header-menu .menu-item a:hover,
+.site-header .main-header-menu .menu-item a.active {
+	border-bottom-color: #ef271b;
+}
+.site-header .menu-item .sub-menu .menu-item a {
+	font-size: 14px;
+	line-height: 22px;
+	color: #252525;
+	padding: 10px 20px;
+}
+.banner-slider h2 {
+	font-size:  50px !important;
+	line-height: 50px !important;
+	font-family: 'Montserrat';
+	margin: 0 0 20px !important;
+}
+.banner-slider .text-wrapper p {
+	font-size:  18px !important;
+	line-height: 20px;
+	margin-bottom:  20px !important;
+	font-family: 'Montserrat';
+	color: #ff3a2d !important;
+}
+.banner-slider .btn a {
+	font-size: 13px;
+    line-height: 50px;
+    font-weight: 700;
+    padding: 0 30px;
+    color: #FFF;
+    display: inline-block;
+    letter-spacing: 2px;
+    font-family: "Open Sans";
+    background-color: #ef271b;
+}
+.banner-slider .btn a:hover {
+	background-color: #FFF;
+	color: #252525;
+}
+.image-wrapper { padding: 85px 0; }
+.image-info-wrapper .image-info-inner {
+	padding: 20px 15px;
+}
+.image-info-wrapper .image-info-inner h3 {
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: -0.4px;
+	margin-bottom: 10px;
+}
+.image-info-wrapper .image-info-inner .description p {
+	font-size: 14px;
+	line-height: 22px;
+	color: #252525;
+	margin-bottom: 0;
+}
+.image-info-wrapper .image-info-inner .more-link a {
+	font-size: 11px;
+	line-height: 15px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #EF271B;
+	transition: all 0.3s ease;
+}
+.image-info-wrapper .image-info-inner .more-link a:hover {
+	color: #959595;
+	text-decoration: underline;
+}
+.image-with-text-wrapper .description p { margin-bottom: 0; }
+.image-with-text-wrapper .heading h3, 
+.product-image-info-wrapper .product-heading h3,
+.contact-info-wrapper .heading h3 {
+	position: relative;
+	padding-bottom: 10px;
+}
+.image-with-text-wrapper .heading h3:after,
+.product-image-info-wrapper .product-heading h3:after,
+.contact-info-wrapper .heading h3:after {
+	content: '';
+	position: absolute;
+	border-bottom: 3px solid #EF271B;
+	width: 115px;
+	height: 1px;
+	bottom: 0;
+	left: 0;
+}
+.image-with-text-wrapper.customer-word-info .customer-info-inner {
+	background-color: #FFFFFF;
+}
+.image-with-text-wrapper.customer-word-info .customer-info-inner .customer-icon-words {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	row-gap: 15px;
+}
+.image-with-text-wrapper.customer-word-info .customer-info-inner .quote-icon-info {
+	display: flex;
+	flex-wrap: wrap;
+}
+.image-with-text-wrapper.customer-word-info .quote-icon-info .quote-icon {
+	width: 22%;
+}
+.image-with-text-wrapper.customer-word-info .quote-icon-info .customer-icon-info {
+	width: 78%;
+	padding-left: 15px;
+}
+.image-with-text-wrapper.customer-word-info .quote-icon-info .customer-icon-info p {
+	color: #252525;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Open Sans';
+	margin-bottom: 0;
+}
+.image-with-text-wrapper.customer-word-info .customer-info-inner .icon-heading-title {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.image-with-text-wrapper.customer-word-info .customer-info-inner .icon-heading-title .icon {
+	display: inline-block;
+	width: 20%;
+}
+.image-with-text-wrapper.customer-word-info .customer-info-inner .icon-heading-title .icon-info {
+	width: 80%;
+	padding-left: 20px;
+}
+.image-with-text-wrapper.customer-word-info .customer-info-inner .icon-heading-title .icon-info h3 {
+	color: #252525;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Montserrat';
+	letter-spacing: -0.4px;
+	font-weight: 700;
+}
+.image-with-text-wrapper.customer-word-info .customer-info-inner .icon-heading-title .icon-info p {
+	color: #EF271B;
+	font-size: 13px;
+	line-height: 20px;
+	font-family: 'Open Sans';
+	margin-bottom: 0;
+}
+.product-sidebar ul.product-menu {
+    margin: 0 0 35px;
+    background-color: #f5f5f5;
+}
+.product-sidebar ul.product-menu li a {
+	display: inline-block;
+	width: 100%;
+	color: #252525;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	padding: 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, .08);
+}
+.product-sidebar .donwload-pdf-main {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 15px;
+	border: 1px solid #E6E6E6;
+	margin-bottom: 20px;
+}
+.product-sidebar .donwload-pdf-main .text-link { padding-left: 15px; }
+.product-sidebar .donwload-pdf-main .text-link p { color: #B3B3B3; margin: 0; }
+.product-sidebar .donwload-pdf-main .text-link a { color: #555555; }
+.product-sidebar .donwload-pdf-main .text-link a:hover {
+	color: #EF271B;
+	text-decoration: underline;
+}
+.product-sidebar .contact-info {
+	border: 1px solid #E6E6E6;
+	padding: 10px 15px 30px;
+}
+.product-sidebar .contact-info h3 {
+	font-size: 18px;
+	line-height: 25px;
+	color: #252525;
+	margin: 10px 0;
+}
+.product-sidebar .contact-info .contact-icon-number { margin-bottom: 10px; }
+.product-sidebar .contact-info ul { margin: 0; }
+.product-sidebar .contact-info ul li img {
+	border-bottom: 1px solid #EBEBEB;
+	margin-right: 5px;
+}
+.product-sidebar .contact-info ul li a { color: #252525CC; }
+.product-sidebar .contact-info ul li a:hover {
+	color: #EB271B;
+	text-decoration: underline;
+}
+.product-image-info-wrapper .product-heading h3 { border-bottom: 1px solid #EBEBEB; }
+.product-image-info-wrapper .product-heading h3:after { width: 85px; }
+.contact-info-wrapper h3 {
+	font-size: 25px;
+	line-height: 35px;
+	color: #252525;
+	margin: 0 0 20px;
+}
+.contact-info-wrapper .corporate-info-wrapper {
+	border-bottom: 1px solid #EBEBEB;
+}
+.contact-info-wrapper .corporate-info-wrapper .icon-info {
+	display: flex;
+	flex-wrap: wrap;
+	color: #000;
+}
+.contact-info-wrapper .corporate-info-wrapper .icon-info p { margin-bottom: 15px; }
+.contact-info-wrapper .corporate-info-wrapper .icon-info .icon { width: 17%; }
+.contact-info-wrapper .corporate-info-wrapper .icon-info .icon img {
+	border-radius: 50%;
+}
+.contact-info-wrapper .corporate-info-wrapper .icon-info .description {
+	width: 83%;
+	padding-left: 20px;
+}
+.contact-info-wrapper .btn input {
+    font-size: 11px;
+    line-height: 20px;
+	font-weight: 600;
+    letter-spacing: 1px;
+    color: #000;
+    background-color: #fff;
+    padding: 15px 30px;
+    transition: background .2s ease-in-out,border-color .2s ease-in-out,color .2s ease-in-out;
+}
+.contact-info-wrapper .btn input:hover {
+	color: #fff;
+	background-color: #ffa000;
+}
+.site-header .menu-item .sub-menu .menu-item a:hover { color: #ef271b; }
+.site-footer a { font-weight: 600; color: #FFFFFFCC; }
+.site-footer a:hover { text-shadow: 0px 3px 3px #ef271b; }
+.site-footer .site-primary-footer-wrap .site-footer-section-1 p {
+	border-bottom: 1px solid #EBEBEB1A;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+.site-footer h4 {
+	font-size: 14px;
+	line-height: 23px;
+	margin-bottom: 30px;
+	font-weight: 700;
+	letter-spacing: -0.4px;
+}
+.site-footer .footer-widget-area-inner a.footer-site-logo {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.site-footer .footer-social-icons a.footer-social-item {
+	border: 2px solid #FFFFFF99;
+	border-radius: 50%;
+	margin-right: 0;
+	transition: all 200ms ease-in-out;
+}
+.site-footer .footer-social-icons a.footer-social-item:hover {
+	border-color: #FFFFFF;
+}
+.site-footer .subscribe-newsletter {
+    border: 1px solid rgba(255, 255, 255, .1);
+    padding: 20px 20px 30px;
+}
+.site-footer .subscribe-newsletter h2 { margin-bottom: 20px; }
+.site-footer .subscribe-newsletter .subscribe-now-main span {
+	display: block;
+	margin-bottom: 10px;
+}
+.site-footer .subscribe-newsletter .subscribe-now-main p {
+	margin: 0;
+}
+.site-footer .subscribe-newsletter .subscribe-now-main .subscribe-now-email {
+	color: rgba(255, 255, 255, .8);
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, .1);
+    margin-bottom: 10px;
+}
+.site-footer .subscribe-newsletter .subscribe-now-main .subscribe-now-email:focus {
+	border: 1px solid #FFF;
+}
+.site-footer .subscribe-newsletter .subscribe-now-main .btn {
+	font-size: 11px;
+	line-height: 20px;
+	font-family: Open Sans;
+    font-weight: 700;
+    letter-spacing: 1px;
+	background-color: #EF271B;
+	border: 1px solid transparent;
+	border-radius: 30px;
+	color: #FFF;
+	transition: background .2s ease-in-out,color .2s ease-in-out;
+}
+.site-footer .subscribe-newsletter .subscribe-now-main .btn:hover {
+	background-color: #f0534a;
+	border-color: #f0534a;
+}
+
+
+
+.product-list-main .filter-buttons {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.product-list-main .list-view-button,
+.product-list-main .grid-view-button {
+  border: 1px solid white;
+  padding: 5px;
+  font-size: 14px;
+  color: #000;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #EEE;
+  transition: all 0.3s;
+}
+
+.product-list-main .list-view-button:hover,
+.product-list-main .grid-view-button:hover {
+  background-color: #7D7D7D;
+  color: #fff;
+}
+
+.product-list-main .list-view-button {
+  margin-right: 10px;
+}
+
+.product-list-main .list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.product-list-main li {
+/*  background-color: #1f364d;*/
+/*  color: #fff;*/
+  border: 1px solid #7D7D7D;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+
+.product-list-main .list.list-view-filter {
+  flex-direction: column;
+}
+
+.product-list-main .list.list-view-filter li {
+  padding: 10px;
+}
+
+/*.list.grid-view-filter {
+  flex-flow: row wrap;
+}*/
+
+.product-list-main .list.grid-view-filter li {
+  width: calc(33.33% - 20px);
+  padding: 100px;
+  text-align: center;
+}
+
+.product-list-main .product-info-wrapper {
+	
+}
+.product-list-main .product-info-wrapper .image img {
+	width: 100%;
+	height: auto;
+}
+.product-list-main .product-info-wrapper .image-with-date {
+	display: block;
+	width: calc(33.33% - 20px);
+	border: 1px solid #7D7D7D;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.3s;
+}
+.product-list-main .product-info-wrapper .image-with-date .image {
+	display: inline-block;
+	margin-bottom: 20px;
+	position: relative;
+}
+.product-list-main .product-info-wrapper .image-with-date .date {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: flex;
+}
+.product-list-main .product-info-wrapper .image-with-date .date span {
+	color: #fff;
+	background-color: #D70606;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+.product-list-main .product-info-wrapper .heading h3 {
+	font-size: 25px;
+	line-height: 35px;
+	color: #252525;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.product-list-main .product-info-wrapper .description p {
+	color: #252525;
+	margin: 0;
+}

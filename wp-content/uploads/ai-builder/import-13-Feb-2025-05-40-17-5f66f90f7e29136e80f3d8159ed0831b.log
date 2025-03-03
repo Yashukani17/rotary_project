@@ -1,0 +1,135 @@
+
+There was an error on website: Uncaught Error
+ParseError: syntax error, unexpected identifier "custom_theme_setup", expecting "(" in D:\work\htdocs\rotary\wp-content\themes\astra\functions.php:232
+Stack trace:
+#0 D:\work\htdocs\rotary\wp-config.php(102): require_once()
+#1 D:\work\htdocs\rotary\wp-load.php(50): require_once('D:\\work\\htdocs\\...')
+#2 D:\work\htdocs\rotary\wp-admin\admin-ajax.php(22): require_once('D:\\work\\htdocs\\...')
+#3 {main}
+There was an error on website: Uncaught Error
+ParseError: syntax error, unexpected identifier "custom_theme_setup", expecting "(" in D:\work\htdocs\rotary\wp-content\themes\astra\functions.php:232
+Stack trace:
+#0 D:\work\htdocs\rotary\wp-config.php(102): require_once()
+#1 D:\work\htdocs\rotary\wp-load.php(50): require_once('D:\\work\\htdocs\\...')
+#2 D:\work\htdocs\rotary\wp-admin\admin.php(34): require_once('D:\\work\\htdocs\\...')
+#3 D:\work\htdocs\rotary\wp-admin\widgets.php(10): require_once('D:\\work\\htdocs\\...')
+#4 {main}
+There was an error on website: Uncaught Error
+TypeError: Elementor\TemplateLibrary\Source_Local::on_save_post(): Argument #2 ($post) must be of type WP_Post, null given, called in D:\work\htdocs\rotary\wp-includes\class-wp-hook.php on line 326 and defined in D:\work\htdocs\rotary\wp-content\plugins\elementor\includes\template-library\sources\local.php:1115
+Stack trace:
+#0 D:\work\htdocs\rotary\wp-includes\class-wp-hook.php(326): Elementor\TemplateLibrary\Source_Local->on_save_post(358, NULL)
+#1 D:\work\htdocs\rotary\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 D:\work\htdocs\rotary\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\work\htdocs\rotary\wp-includes\post.php(5060): do_action('save_post', 358, NULL, true)
+#4 D:\work\htdocs\rotary\wp-includes\post.php(5162): wp_insert_post(Array, false, true)
+#5 D:\work\htdocs\rotary\wp-content\plugins\elementor\includes\db.php(232): wp_update_post(Array)
+#6 D:\work\htdocs\rotary\wp-content\plugins\elementor\core\base\document.php(1369): Elementor\DB->save_plain_text(358)
+#7 D:\work\htdocs\rotary\wp-content\plugins\elementor\core\base\document.php(859): Elementor\Core\Base\Document->save_elements(Array)
+#8 D:\work\htdocs\rotary\wp-content\plugins\elementor\core\documents-manager.php(550): Elementor\Core\Base\Document->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 D:\work\htdocs\rotary\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 D:\work\htdocs\rotary\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 D:\work\htdocs\rotary\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 D:\work\htdocs\rotary\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 D:\work\htdocs\rotary\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#15 {main}
+There was an error on website: Uncaught Error
+ParseError: syntax error, unexpected token "." in D:\work\htdocs\rotary\wp-content\themes\astra\functions.php:300
+Stack trace:
+#0 D:\work\htdocs\rotary\wp-config.php(102): require_once()
+#1 D:\work\htdocs\rotary\wp-load.php(50): require_once('D:\\work\\htdocs\\...')
+#2 D:\work\htdocs\rotary\wp-admin\admin-ajax.php(22): require_once('D:\\work\\htdocs\\...')
+#3 {main}
+There was an error on website: Uncaught Error
+ParseError: syntax error, unexpected token "." in D:\work\htdocs\rotary\wp-content\themes\astra\functions.php:300
+Stack trace:
+#0 D:\work\htdocs\rotary\wp-config.php(102): require_once()
+#1 D:\work\htdocs\rotary\wp-load.php(50): require_once('D:\\work\\htdocs\\...')
+#2 D:\work\htdocs\rotary\wp-blog-header.php(13): require_once('D:\\work\\htdocs\\...')
+#3 D:\work\htdocs\rotary\index.php(17): require('D:\\work\\htdocs\\...')
+#4 {main}
+There was an error on website: Uncaught Error
+ParseError: syntax error, unexpected token "." in D:\work\htdocs\rotary\wp-content\themes\astra\functions.php:300
+Stack trace:
+#0 D:\work\htdocs\rotary\wp-config.php(102): require_once()
+#1 D:\work\htdocs\rotary\wp-load.php(50): require_once('D:\\work\\htdocs\\...')
+#2 D:\work\htdocs\rotary\wp-blog-header.php(13): require_once('D:\\work\\htdocs\\...')
+#3 D:\work\htdocs\rotary\index.php(17): require('D:\\work\\htdocs\\...')
+#4 {main}
+There was an error on website: Uncaught Error
+ParseError: syntax error, unexpected token "." in D:\work\htdocs\rotary\wp-content\themes\astra\functions.php:300
+Stack trace:
+#0 D:\work\htdocs\rotary\wp-config.php(102): require_once()
+#1 D:\work\htdocs\rotary\wp-load.php(50): require_once('D:\\work\\htdocs\\...')
+#2 D:\work\htdocs\rotary\wp-admin\admin-ajax.php(22): require_once('D:\\work\\htdocs\\...')
+#3 {main}
+There was an error on website: Uncaught Error
+ParseError: syntax error, unexpected token "." in D:\work\htdocs\rotary\wp-content\themes\astra\functions.php:300
+Stack trace:
+#0 D:\work\htdocs\rotary\wp-config.php(102): require_once()
+#1 D:\work\htdocs\rotary\wp-load.php(50): require_once('D:\\work\\htdocs\\...')
+#2 D:\work\htdocs\rotary\wp-admin\admin-ajax.php(22): require_once('D:\\work\\htdocs\\...')
+#3 {main}
+There was an error on website: Uncaught Error
+ParseError: syntax error, unexpected token "." in D:\work\htdocs\rotary\wp-content\themes\astra\functions.php:300
+Stack trace:
+#0 D:\work\htdocs\rotary\wp-config.php(102): require_once()
+#1 D:\work\htdocs\rotary\wp-load.php(50): require_once('D:\\work\\htdocs\\...')
+#2 D:\work\htdocs\rotary\wp-admin\admin-ajax.php(22): require_once('D:\\work\\htdocs\\...')
+#3 {main}
+There was an error on website: Uncaught Error
+Error: Call to undefined function get_the_field() in D:\work\htdocs\rotary\wp-content\themes\astra\functions.php:300
+Stack trace:
+#0 D:\work\htdocs\rotary\wp-includes\shortcodes.php(434): show_download_section_fun(Array, '', 'download_pdf')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 D:\work\htdocs\rotary\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(downlo...', 'do_shortcode_ta...', '<p><a href="#">...')
+#3 D:\work\htdocs\rotary\wp-content\plugins\elementor\includes\base\widget-base.php(453): do_shortcode('<p><a href="#">...')
+#4 D:\work\htdocs\rotary\wp-content\plugins\elementor\includes\widgets\text-editor.php(496): Elementor\Widget_Base->parse_text_editor('<p><a href="#">...')
+#5 D:\work\htdocs\rotary\wp-content\plugins\elementor\includes\base\controls-stack.php(2366): Elementor\Widget_Text_Editor->render()
+#6 D:\work\htdocs\rotary\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#7 D:\work\htdocs\rotary\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#8 D:\work\htdocs\rotary\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#9 D:\work\htdocs\rotary\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#10 D:\work\htdocs\rotary\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#11 [internal function]: do_shortcode_tag(Array)
+#12 D:\work\htdocs\rotary\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#13 D:\work\htdocs\rotary\wp-content\plugins\elementor\core\base\document.php(1870): do_shortcode('<div class="ele...')
+#14 D:\work\htdocs\rotary\wp-content\plugins\elementor\core\base\document.php(1204): Elementor\Core\Base\Document->print_elements(Array)
+#15 D:\work\htdocs\rotary\wp-content\plugins\elementor\includes\frontend.php(1203): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#16 D:\work\htdocs\rotary\wp-content\plugins\elementor\includes\frontend.php(1098): Elementor\Frontend->get_builder_content(221)
+#17 D:\work\htdocs\rotary\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('<p><a href="#">...')
+#18 D:\work\htdocs\rotary\wp-includes\plugin.php(205): WP_Hook->apply_filters('<p><a href="#">...', Array)
+#19 D:\work\htdocs\rotary\wp-includes\post-template.php(256): apply_filters('the_content', '<p><a href="#">...')
+#20 D:\work\htdocs\rotary\wp-content\themes\astra\template-parts\single\single-layout.php(47): the_content()
+#21 D:\work\htdocs\rotary\wp-includes\template.php(812): require('D:\\work\\htdocs\\...')
+#22 D:\work\htdocs\rotary\wp-includes\template.php(745): load_template('D:\\work\\htdocs\\...', false, Array)
+#23 D:\work\htdocs\rotary\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#24 D:\work\htdocs\rotary\wp-content\themes\astra\inc\template-parts.php(260): get_template_part('template-parts/...')
+#25 D:\work\htdocs\rotary\wp-includes\class-wp-hook.php(324): astra_entry_content_single_template('')
+#26 D:\work\htdocs\rotary\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#27 D:\work\htdocs\rotary\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#28 D:\work\htdocs\rotary\wp-content\themes\astra\inc\core\theme-hooks.php(441): do_action('astra_entry_con...')
+#29 D:\work\htdocs\rotary\wp-content\themes\astra\template-parts\content-single.php(31): astra_entry_content_single()
+#30 D:\work\htdocs\rotary\wp-includes\template.php(812): require('D:\\work\\htdocs\\...')
+#31 D:\work\htdocs\rotary\wp-includes\template.php(745): load_template('D:\\work\\htdocs\\...', false, Array)
+#32 D:\work\htdocs\rotary\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#33 D:\work\htdocs\rotary\wp-content\themes\astra\inc\class-astra-loop.php(120): get_template_part('template-parts/...', 'single')
+#34 D:\work\htdocs\rotary\wp-includes\class-wp-hook.php(324): Astra_Loop->template_parts_post('')
+#35 D:\work\htdocs\rotary\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#36 D:\work\htdocs\rotary\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#37 D:\work\htdocs\rotary\wp-content\themes\astra\inc\class-astra-loop.php(199): do_action('astra_template_...')
+#38 D:\work\htdocs\rotary\wp-includes\class-wp-hook.php(324): Astra_Loop->loop_markup('')
+#39 D:\work\htdocs\rotary\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#40 D:\work\htdocs\rotary\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#41 D:\work\htdocs\rotary\wp-content\themes\astra\inc\core\theme-hooks.php(256): do_action('astra_content_l...')
+#42 D:\work\htdocs\rotary\wp-content\themes\astra\single.php(27): astra_content_loop()
+#43 D:\work\htdocs\rotary\wp-includes\template-loader.php(106): include('D:\\work\\htdocs\\...')
+#44 D:\work\htdocs\rotary\wp-blog-header.php(19): require_once('D:\\work\\htdocs\\...')
+#45 D:\work\htdocs\rotary\index.php(17): require('D:\\work\\htdocs\\...')
+#46 {main}
+There was an error on website: Uncaught Error
+ParseError: syntax error, unexpected token "<", expecting end of file in D:\work\htdocs\rotary\wp-content\themes\astra\product_list.php:9
+Stack trace:
+#0 D:\work\htdocs\rotary\wp-blog-header.php(19): require_once()
+#1 D:\work\htdocs\rotary\index.php(17): require('D:\\work\\htdocs\\...')
+#2 {main}

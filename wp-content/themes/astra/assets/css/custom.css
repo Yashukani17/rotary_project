@@ -1,0 +1,79 @@
+.bsb-overlay-hover {
+    position: relative;
+    overflow: hidden;
+}
+
+.bsb-overlay-hover img {
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.bsb-overlay-hover:hover img {
+    transform: scale(1.2); /* Image zoom effect */
+}
+
+/* Overlay effect */
+.bsb-overlay-hover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.bsb-overlay-hover:hover::after {
+    opacity: 1; /* Show overlay on hover */
+}
+
+/* Styling figcaption for text/icon */
+.bsb-overlay-hover figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.bsb-overlay-hover:hover figcaption {
+    opacity: 1; /* Show text/icon on hover */
+}
+
+/* Fade-in animations */
+.bsb-hover-fadeInLeft {
+    animation: fadeInLeft 0.5s ease-in-out;
+}
+
+.bsb-hover-fadeInRight {
+    animation: fadeInRight 0.5s ease-in-out;
+}
+
+/* Keyframes */
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
